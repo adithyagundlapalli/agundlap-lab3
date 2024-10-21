@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  margin-left: -20px;
+  width: 185px;
+  height: 89px;
+}
+
+.time-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.right-align {
+  margin-bottom: 10px;
+}
+
+.time,
+.unit,
+.second,
+.date {
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  font-family: "Oxygen", sans-serif;
+  color: #2dbdb1;
+  font-weight: 400;
+  font-size: 56.25px;
+  line-height: 71.03px;
+}
+
+.unit,
+.second {
+  font-family: "Oxygen", sans-serif;
+  color: #2dbdb1;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.94px;
+  text-align: right;
+}
+
+.date {
+  font-family: "Oxygen", sans-serif;
+  color: #4b5853;
+  font-weight: 400;
+  font-size: 18.75px;
+  line-height: 23.68px;
+}
